@@ -43,3 +43,7 @@ Each function should also include test code that ensures the function works as e
 - 14:00: Start coding again! Try and use this time to make clean documentation and tests.
 
 - 14:30: Each team will present their finished function.
+
+- 15:00: Hackathon finished.
+
+*Please send us your finished code (or open a PR on GitHub)*
