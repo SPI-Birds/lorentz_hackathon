@@ -1,0 +1,21 @@
+Package: lorentz_hackathon
+Title: Convert SPI-Birds data for survival analysis
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Liam",
+             family = "Bailey",
+             role = c("aut", "cre"),
+             email = "liam.bailey@liamdbailey.com"))
+Description: We want to create a function that can convert the SPI-Birdsstandard format into a data structure that is suitable for use in a survival analysis. This data should at least retain information on population, species, and date of first capture.
+Depends: R (>= 4.0.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+         devtools
+RoxygenNote: 7.1.1
+Suggests: 
+    fuzzr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
