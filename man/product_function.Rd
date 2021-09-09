@@ -7,13 +7,21 @@
 product_function(a, b)
 }
 \arguments{
-\item{a}{}
+\item{a}{Integer or numeric. First value to multiply.}
 
-\item{b}{}
+\item{b}{Integer or numeric. Second value to multiply.}
 }
 \value{
-
+An integer or numeric. The product of a and b
 }
 \description{
-Return the product of two numbers
+Takes to numbers (numeric or integer) and returns
+the product
+}
+\examples{
+#Input integers
+product_function(1L, 2L)
+
+#Input numeric
+product_function(1.0, 2.5)
 }
